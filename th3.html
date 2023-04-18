@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            .product {
+                width: 200px;
+                margin: auto;
+                border: 1px solid green;
+                border-radius: 7px;
+            }
+
+            .image {
+                width: 100%;
+                overflow: hidden;
+            }
+            .image:hover img {
+                transform: scale(1.2);
+            }
+/*            .image:hover img{
+                transform: scale(1.2);
+            }*/
+            img {
+                width: 100%;
+
+            }
+            .box {
+                display: flex;
+                justify-content: space-around;
+            }
+            button {
+                margin-top: 15px;
+                padding: 7px;
+            }
+            .name{
+                font-size: 24px;
+                transition: all 0.5s;
+            }
+            .name:hover{
+                color: coral;
+            }
+            .describe{
+                margin-top: 5px;
+            }
+            button {
+                border-color: yellowgreen;
+                color: red;
+                cursor: pointer;
+                transition: all 0.5s;
+            }
+            button:hover {
+                background-color: coral;
+                color: azure;
+            }
+            .price{
+                color: #FB5533;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+
+    <body>
+            <div class="product">
+                <div class="image">
+                    <img src="https://scontent.fhan18-1.fna.fbcdn.net/v/t39.30808-6/338718445_774595000847353_7574241965750183305_n.jpg?stp=cp6_dst-jpg&_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=CCMfjHOkGssAX__7BUo&_nc_ht=scontent.fhan18-1.fna&oh=00_AfBftIMTxMI8SxEyxAQepSkQ7UC_B9GRCCDgHinqFyuhVg&oe=64444E8A" alt="">
+                </div>
+                <div class="box">
+                    <div class="content">
+                        <div class="name">Lan Anh</div>
+                        <div class="describe">Nói ít, trầm tính</div>
+                        <div class="price">0vnd</div>
+                    </div>              
+                    <a href="https://www.facebook.com/nguyethang11202">
+                        <button>Mua</button>
+                    </a>
+                </div>
+            </div>
+    </body>
+
+</html>
